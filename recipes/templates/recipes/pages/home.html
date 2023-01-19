@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  {% include 'recipes/partials/head.html' %}
+
+  <body>
+    {% include 'recipes/partials/header.html' %} 
+    {% include 'recipes/partials/search.html' %}
+
+    <!-- <h1><i class="fa-solid fa-burger">HOME</i></h1>
+<i class="fa-solid fa-burger">chama</i>
+<br/>
+<i class="fa-solid fa-apple-whole"> {{ name }}</i>
+
+    <header class="main-header-container">
+    <div class="main-header-container">
+        <h1>
+            <a href="/">
+                <i class="fa-solid fa-burger"></i>
+                <span>{{ name }}'s RECIPES</span>
+            </a>
+        </h1>
+    </div>
+<br/> 
+    <main class="main-content-container">
+        <div class="main-content main-content-list container">
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+        </div>
+    </main> -->
+    <main class="main-content-container">
+      <div class="main-content main-content-list container">
+            {% include 'recipes/partials/recipe.html' %} 
+            {% include 'recipes/partials/recipe.html' %} 
+            {% include 'recipes/partials/recipe.html' %} 
+            {% include 'recipes/partials/recipe.html' %} 
+            {% include 'recipes/partials/recipe.html' %} 
+            {% include 'recipes/partials/recipe.html' %} 
+      </div>
+    </main>
+    {% include 'recipes/partials/footer.html' %}
+  </body>
+</html>
